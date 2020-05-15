@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+* {
+  box-sizing: border-box;
+}
+
+.calculator{
+    max-width:480px;
+    background: #eee;
+}
+.calculator-buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    border:0;
+}
+.calc-numbers{
+    font-family: Comic Sans MS,;
+    background:#424242;
+    color:#D7CCC8;
+    font-size:3em;
+    border:1px;
+    padding: 0.3em;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+}
+.span-2{
+    grid-column: span 2;
+}
+.span-3{
+    grid-column: span 3;
+}
+.btn{
+    font-size:2em;
+    height: 65px;
+    border:1px solid #424242 ;
+    background:	#FFEB3B;
+	color:#424242;
+}
+.btn:hover{
+    background:	#D7CCC8;
+}
+.purple{
+    background-color:#673AB7;
+	color:white;
+}
